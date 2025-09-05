@@ -101,6 +101,7 @@ const Service = () => {
               width={800}
               height={500}
               className="w-full h-[500px] rounded-xl object-cover"
+              loading="lazy"
             />
           </div>
         </motion.div>
@@ -170,6 +171,7 @@ const Service = () => {
               width={800}
               height={500}
               className="w-full h-[500px] rounded-xl object-cover"
+              loading="lazy"
             />
           </div>
         </motion.div>
@@ -217,6 +219,7 @@ const Service = () => {
               width={800}
               height={500}
               className="w-full h-[500px] rounded-xl object-cover"
+              loading="lazy"
             />
           </div>
         </motion.div>
@@ -260,6 +263,7 @@ const Service = () => {
               width={800}
               height={500}
               className="w-full h-[500px] rounded-xl object-cover"
+              loading="lazy"
             />
           </div>
         </motion.div>
@@ -309,6 +313,7 @@ const Service = () => {
               width={800}
               height={500}
               className="w-full h-[500px] rounded-xl object-cover"
+              loading="lazy"
             />
           </div>
         </motion.div>
@@ -350,6 +355,7 @@ const Service = () => {
               width={800}
               height={500}
               className="w-full h-[500px] rounded-xl object-cover"
+              loading="lazy"
             />
           </div>
         </motion.div>
@@ -438,7 +444,8 @@ const Service = () => {
             </p>
           </div>
           {/* <div className="my-10 w-full ">
-                    <Image src="/screening.jpg" alt="group1" width={800} height={500} className="w-full h-[500px] rounded-xl object-cover"/>
+                    <Image src="/screening.jpg" alt="group1" width={800} height={500} className="w-full h-[500px] rounded-xl object-cover"
+                    loading="lazy"/>
         
                 </div> */}
         </motion.div>

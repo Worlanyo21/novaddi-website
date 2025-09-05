@@ -107,7 +107,7 @@ const Hero = () => {
       >
         <Image
           fill
-          src={"/hero-chemist.jpg"}
+          src={"/Hero-chemist.jpg"}
           alt="Hero Image"
           priority
           sizes="100vw"

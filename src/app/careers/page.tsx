@@ -54,7 +54,7 @@ const Career = () => {
                 pharmacy operations, AI/data science, engineering, design,
                 partnerships, and growth
               </span>
-              . <br />
+              . <br /><br />
               Expect meaningful work, growth opportunities, flexible setups,
               wellness perks and the chance to build health systems people truly
               love to use.
