@@ -18,7 +18,7 @@ const DownloadApp = () => {
         transition={{ duration: 0.7, ease: "easeInOut" }}
         className="flex flex-col items-center justify-center w-full mx-auto "
       >
-        <small className="uppercase mb-4 font-semibold mx-auto text-center">
+        <small className="uppercase mb-4 font-semibold mx-auto text-center w-[80%]">
           you confirm every order yourself before we deliver. safe and secure.
         </small>
         <p className="font-semibold text-3xl md:text-5xl w-[70%] text-center">

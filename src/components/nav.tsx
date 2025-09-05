@@ -175,7 +175,7 @@ const Navigation = () => {
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <div className="lg:hidden glass-card mt-2 rounded-lg  bg-black overflow-hidden animate-fade-in-up">
+          <div className="lg:hidden glass-card mt-2 rounded-lg  bg-black overflow-hidden animate-fade-in-up mb-3">
             <div className="flex flex-col space-y-2 p-6">
               {navItems.map((item) => (
                 <button

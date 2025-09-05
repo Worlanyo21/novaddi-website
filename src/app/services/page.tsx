@@ -62,17 +62,17 @@ const Service = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={digitalView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7, ease: "easeInOut" }}
-          className="bg-gray-100 p-10 px-16 rounded-4xl mt-6"
+          className="bg-gray-100 p-10 md:px-16 rounded-4xl mt-6"
         >
           <div className="my-8">
-            <h1 className="text-2xl font-bold flex items-center gap-x-2 underline bg-gradient-to-br from-[#41B782] to-teal-950 bg-clip-text text-transparent">
-              <span className="p-1 px-2  text-white text-xs bg-gradient-to-br from-[#41B782] to-teal-900 rounded-full w-fit h-fit">
+            <h1 className="text-2xl font-bold flex md:items-center gap-x-2 underline bg-gradient-to-br from-[#41B782] to-teal-950 bg-clip-text text-transparent">
+              <span className="hidden md:block p-1 px-2  text-white text-xs bg-gradient-to-br from-[#41B782] to-teal-900 rounded-full w-fit h-fit">
                 1
               </span>
               Digital Prescription Fulfillment
             </h1>
 
-            <ol className="list-disc list-inside ml-8 font-semibold">
+            <ol className="list-disc list-inside md:ml-8 font-semibold">
               <li className="mt-3">
                 Upload your prescription in seconds (photo or e-Rx)
               </li>
@@ -111,22 +111,22 @@ const Service = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={wellnessView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7, ease: "easeInOut" }}
-          className="bg-gray-100 p-10 px-16 rounded-4xl mt-6"
+          className="bg-gray-100 p-10 md:px-16 rounded-4xl mt-6"
         >
           <div className="my-8">
             <h1 className="text-2xl font-bold flex items-center gap-x-2 underline bg-gradient-to-br from-[#41B782] to-teal-950 bg-clip-text text-transparent">
-              <span className="p-1 px-2  text-white text-xs bg-gradient-to-br from-[#41B782] to-teal-900 rounded-full w-fit h-fit">
+              <span className="hidden md:block p-1 px-2  text-white text-xs bg-gradient-to-br from-[#41B782] to-teal-900 rounded-full w-fit h-fit">
                 2
               </span>
               Wellness Packs
             </h1>
-            <p className="ml-8 text-lg">
+            <p className="md:ml-8 text-lg">
               Each Pack pairs delivery by Novaddi with adherence support via{" "}
               <span className="font-semibold">
                 MediVault in the Knoxxi Health app.
               </span>
             </p>
-            <ol className="list-disc list-inside ml-8 font-semibold">
+            <ol className="list-disc list-inside md:ml-8 font-semibold">
               <li className="mt-3">
                 Hypertension Pack —{" "}
                 <span className="font-light ">
@@ -181,17 +181,17 @@ const Service = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={uriscanView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7, ease: "easeInOut" }}
-          className="bg-gray-100 p-10 px-16 rounded-4xl mt-6"
+          className="bg-gray-100 p-10 md:px-16 rounded-4xl mt-6"
         >
           <div className="my-8">
             <h1 className="text-2xl font-bold flex items-center gap-x-2 underline bg-gradient-to-br from-[#41B782] to-teal-950 bg-clip-text text-transparent">
-              <span className="p-1 px-2  text-white text-xs bg-gradient-to-br from-[#41B782] to-teal-900 rounded-full w-fit h-fit">
+              <span className="hidden md:block p-1 px-2  text-white text-xs bg-gradient-to-br from-[#41B782] to-teal-900 rounded-full w-fit h-fit">
                 3
               </span>
               Enterprise UriScan
             </h1>
             {/* <p className='ml-8 text-lg'>Each Pack pairs delivery by Novaddi with adherence support via <span className='font-semibold'>MediVault in the Knoxxi Health app.</span></p> */}
-            <ol className="list-disc list-inside ml-8 font-semibold">
+            <ol className="list-disc list-inside md:ml-8 font-semibold">
               <li className="mt-3">
                 Results in minutes with clear next steps.
               </li>
@@ -229,17 +229,17 @@ const Service = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={pharmacyView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7, ease: "easeInOut" }}
-          className="bg-gray-100 p-10 px-16 rounded-4xl mt-6"
+          className="bg-gray-100 p-10 md:px-16 rounded-4xl mt-6"
         >
           <div className="my-8">
             <h1 className="text-2xl font-bold flex items-center gap-x-2 underline bg-gradient-to-br from-[#41B782] to-teal-950 bg-clip-text text-transparent">
-              <span className="p-1 px-2  text-white text-xs bg-gradient-to-br from-[#41B782] to-teal-900 rounded-full w-fit h-fit">
+              <span className="hidden md:block p-1 px-2  text-white text-xs bg-gradient-to-br from-[#41B782] to-teal-900 rounded-full w-fit h-fit">
                 4
               </span>
               Partner-Pharmacy Network
             </h1>
             {/* <p className='ml-8 text-lg'>Each Pack pairs delivery by Novaddi with adherence support via <span className='font-semibold'>MediVault in the Knoxxi Health app.</span></p> */}
-            <ol className="list-disc list-inside ml-8 font-semibold">
+            <ol className="list-disc list-inside md:ml-8 font-semibold">
               <li className="mt-3">
                 Diagnostic corners: blood pressure, glucose, cholesterol, rapid
                 tests.
@@ -273,17 +273,17 @@ const Service = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={devicesView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7, ease: "easeInOut" }}
-          className="bg-gray-100 p-10 px-16 rounded-4xl mt-6"
+          className="bg-gray-100 p-10 md:px-16 rounded-4xl mt-6"
         >
           <div className="my-8">
             <h1 className="text-2xl font-bold flex items-center gap-x-2 underline bg-gradient-to-br from-[#41B782] to-teal-950 bg-clip-text text-transparent">
-              <span className="p-1 px-2  text-white text-xs bg-gradient-to-br from-[#41B782] to-teal-900 rounded-full w-fit h-fit">
+              <span className="hidden md:block p-1 px-2  text-white text-xs bg-gradient-to-br from-[#41B782] to-teal-900 rounded-full w-fit h-fit">
                 5
               </span>
               Medical Devices & Consumables
             </h1>
             {/* <p className='ml-8 text-lg'>Each Pack pairs delivery by Novaddi with adherence support via <span className='font-semibold'>MediVault in the Knoxxi Health app.</span></p> */}
-            <ol className="list-disc list-inside ml-8 font-semibold">
+            <ol className="list-disc list-inside md:ml-8 font-semibold">
               <li className="mt-3">
                 Devices — Blood pressure monitors, glucometers, oximeters,
                 scales, thermometers.
@@ -323,17 +323,17 @@ const Service = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={corporateView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7, ease: "easeInOut" }}
-          className="bg-gray-100 p-10 px-16 rounded-4xl mt-6"
+          className="bg-gray-100 p-10 md:px-16 rounded-4xl mt-6"
         >
           <div className="my-8">
             <h1 className="text-2xl font-bold flex items-center gap-x-2 underline bg-gradient-to-br from-[#41B782] to-teal-950 bg-clip-text text-transparent">
-              <span className="p-1 px-2  text-white text-xs bg-gradient-to-br from-[#41B782] to-teal-900 rounded-full w-fit h-fit">
+              <span className="hidden md:block p-1 px-2  text-white text-xs bg-gradient-to-br from-[#41B782] to-teal-900 rounded-full w-fit h-fit">
                 6
               </span>
               Corporate & Institutional Health
             </h1>
             {/* <p className='ml-8 text-lg'>Each Pack pairs delivery by Novaddi with adherence support via <span className='font-semibold'>MediVault in the Knoxxi Health app.</span></p> */}
-            <ol className="list-disc list-inside ml-8 font-semibold">
+            <ol className="list-disc list-inside md:ml-8 font-semibold">
               <li className="mt-3">
                 On-site screening days (blood pressure, glucose, urinalysis,
                 cholesterol) with same-day insights.
@@ -365,17 +365,17 @@ const Service = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={supplierView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7, ease: "easeInOut" }}
-          className="bg-gray-100 p-10 px-16 rounded-4xl mt-6"
+          className="bg-gray-100 p-10 md:px-16 rounded-4xl mt-6"
         >
           <div className="my-8">
             <h1 className="text-2xl font-bold flex items-center gap-x-2 underline bg-gradient-to-br from-[#41B782] to-teal-950 bg-clip-text text-transparent">
-              <span className="p-1 px-2  text-white text-xs bg-gradient-to-br from-[#41B782] to-teal-900 rounded-full w-fit h-fit">
+              <span className="hidden md:block p-1 px-2  text-white text-xs bg-gradient-to-br from-[#41B782] to-teal-900 rounded-full w-fit h-fit">
                 7
               </span>
               Pharma & Supplier Collaboration
             </h1>
             {/* <p className='ml-8 text-lg'>Each Pack pairs delivery by Novaddi with adherence support via <span className='font-semibold'>MediVault in the Knoxxi Health app.</span></p> */}
-            <ol className="list-disc list-inside ml-8 font-semibold">
+            <ol className="list-disc list-inside md:ml-8 font-semibold">
               <li className="mt-3">
                 Predictive demand signals to align production and distribution.
               </li>
@@ -397,24 +397,24 @@ const Service = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={mediVaultView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7, ease: "easeInOut" }}
-          className="bg-gray-100 p-10 px-16 rounded-4xl mt-6"
+          className="bg-gray-100 p-10 md:px-16 rounded-4xl mt-6"
         >
           <div className="my-8">
             <h1 className="text-2xl font-bold flex items-center gap-x-2 underline bg-gradient-to-br from-[#41B782] to-teal-950 bg-clip-text text-transparent">
-              <span className="p-1 px-2  text-white text-xs bg-gradient-to-br from-[#41B782] to-teal-900 rounded-full w-fit h-fit">
+              <span className="hidden md:block p-1 px-2  text-white text-xs bg-gradient-to-br from-[#41B782] to-teal-900 rounded-full w-fit h-fit">
                 8
               </span>
               MediVault (Medication Adherence) — in the Knoxxi Health App
             </h1>
-            <p className="ml-8 text-lg mt-1">
+            <p className="md:ml-8 text-lg mt-1">
               MediVault is built into the Knoxxi Health app and works
               hand-in-hand with Novaddi’s delivery.
             </p>
-            <h1 className="text-xl font-semibold ml-8 flex items-center gap-x-2 underline bg-gradient-to-br from-[#41B782] to-teal-950 bg-clip-text text-transparent">
+            <h1 className="text-xl font-semibold md:ml-8 flex items-center gap-x-2 underline bg-gradient-to-br from-[#41B782] to-teal-950 bg-clip-text text-transparent">
               Features:
             </h1>
             {/* <p className='ml-8 text-lg'>Each Pack pairs delivery by Novaddi with adherence support via <span className='font-semibold'>MediVault in the Knoxxi Health app.</span></p> */}
-            <ol className="list-disc list-inside ml-8 font-semibold">
+            <ol className="list-disc list-inside md:ml-8 font-semibold">
               <li className="mt-3">
                 Simple schedule builder with dose, time, frequency.
               </li>
@@ -453,7 +453,7 @@ const Service = () => {
         <div className=" mt-16 rounded-xl bg-gradient-to-br from-[#41B782] to-teal-900 w-full h-[400px] flex flex-col items-center justify-center text-center text-white">
           <HeartPulse className="bg-white rounded-full p-2 text-slate-900 w-10 h-10 my-1" />
           <p className="font-bold text-3xl">Ready to Transform Your Health? </p>
-          <p className="text-xl w-[60%] mt-2">
+          <p className="text-xl md:w-[60%] mt-2 px-4">
             Interested in partnering with us, joining our care team, or learning
             more about how Novaddi is transforming health? We’d love to hear
             from you!

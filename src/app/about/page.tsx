@@ -70,14 +70,14 @@ const AboutUs = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7, ease: "easeInOut" }}
-          className="bg-gray-100 p-10 px-16 rounded-4xl mt-6"
+          className="bg-gray-100 p-10 md:px-16 rounded-4xl mt-6"
         >
           <div className="mt-6 ml-2">
             <h1 className="bg-gradient-to-br from-[#41B782] to-teal-950 bg-clip-text text-transparent text-3xl font-semibold ">
               Our Story
             </h1>
 
-            <p className="text-slate-900 text-lg w-[90%]">
+            <p className="text-slate-900 text-lg md:w-[90%]">
               We started Novaddi to remove the stress from everyday healthcare.
               What began as a digital pharmacy is now a connected platform that
               blends prescriptions, preventive diagnostics, and straightforward
@@ -101,7 +101,7 @@ const AboutUs = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={ourVisionView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7, ease: "easeInOut" }}
-          className="bg-gray-100 p-10 px-16 rounded-4xl mt-6"
+          className="bg-gray-100 p-10 md:px-16 rounded-4xl mt-6"
         >
           <div className="flex flex-col md:flex-row items-center justify-between gap-y-8 md:gap-x-8 mt-16 ">
             <div className="flex flex-col justify-between bg-gradient-to-br from-[#41B782] to-teal-800 h-fit w-full rounded-4xl p-7 py-6 ">
@@ -172,13 +172,13 @@ const AboutUs = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={ourGovernanceView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7, ease: "easeInOut" }}
-          className="bg-gray-100 p-1 px-16 rounded-4xl mt-6"
+          className="bg-gray-100 p-10 md:px-16 rounded-4xl mt-6"
         >
-          <div className="bg-gradient-to-br from-[#41B782] to-teal-950 bg-clip-text text-transparent  my-16">
-            <h1 className="text-3xl font-semibold mt-10">
+          <div className="bg-gradient-to-br from-[#41B782] to-teal-950 bg-clip-text text-transparent  my-6">
+            <h1 className="text-3xl font-semibold">
               Government and Society
             </h1>
-            <p className="text-slate-900 text-lg w-[90%]">
+            <p className="text-slate-900 text-lg md:w-[90%]">
               Every step is built on trust and care. Our licensed pharmacists
               follow proven clinical standards, while quality checks ensure
               safety. Medicines stay protected with cold-chain monitoring when
@@ -193,7 +193,7 @@ const AboutUs = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={ourInnovationView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7, ease: "easeInOut" }}
-          className="bg-gray-100 p-10 px-16 rounded-4xl mt-6"
+          className="bg-gray-100 p-10 md:px-16 rounded-4xl mt-6"
         >
           <div className="bg-gradient-to-br from-[#41B782] to-teal-950 bg-clip-text text-transparent my-16">
             <h1 className="text-3xl font-semibold mt-10">
@@ -283,7 +283,7 @@ const AboutUs = () => {
         <div className=" mt-12 rounded-xl bg-gradient-to-br from-[#41B782] to-teal-900 w-full h-[400px] flex flex-col items-center justify-center text-center text-white">
           <HeartPulse className="bg-white rounded-full p-2 text-slate-900 w-10 h-10 my-1" />
           <p className="font-bold text-3xl">Ready to Transform Your Health? </p>
-          <p className="text-xl w-[60%] mt-2">
+          <p className="text-xl md:w-[60%] mt-2 px-4">
             Interested in partnering with us, joining our care team, or learning
             more about how Novaddi is transforming health? We’d love to hear
             from you!

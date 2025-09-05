@@ -210,7 +210,7 @@ const ContactUs = () => {
             initial={{ opacity: 0, y: 50 }}
             animate={formView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.7, ease: "easeInOut" }}
-            className="flex flex-col md:flex-row mt-10 bg-gray-100 w-full rounded-2xl p-14 gap-x-8"
+            className="flex flex-col md:flex-row mt-10 bg-gray-100 w-full rounded-2xl md:p-14 p-6 gap-x-8"
           >
             <div className="md:w-[50%] text-slate-900">
               <div>
@@ -330,7 +330,7 @@ const ContactUs = () => {
             initial={{ opacity: 0, y: 50 }}
             animate={detailsView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.7, ease: "easeInOut" }}
-            className="flex flex-col md:flex-row justify-between mt-10 gap-8 bg-gray-100 p-10 rounded-2xl w-full"
+            className="flex flex-col md:flex-row justify-between mt-10 gap-8 bg-gray-100 md:p-10 p-8 rounded-2xl w-full"
           >
             <div>
               <h1 className="text-xl font-semibold bg-gradient-to-br from-[#41B782] to-teal-950 bg-clip-text text-transparent">

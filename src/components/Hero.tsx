@@ -111,7 +111,7 @@ const Hero = () => {
           alt="Hero Image"
           priority
           sizes="100vw"
-          className="absolute inset-0 object-cover  object-top w-full h-full opacity-58 "
+          className="absolute inset-0 object-cover  object-top w-full h-full opacity-62 "
         />
       </div>
 

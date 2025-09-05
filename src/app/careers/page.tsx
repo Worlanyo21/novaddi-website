@@ -66,7 +66,7 @@ const Career = () => {
             initial={{ opacity: 0, y: 50 }}
             animate={imageView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.7, ease: "easeInOut" }}
-            className="md:w-[50%] pr-10"
+            className="md:w-[50%] md:pr-10"
           >
             <Image
               src="/corporate5.jpg"
@@ -82,7 +82,7 @@ const Career = () => {
         <div className=" mt-12 rounded-xl bg-gradient-to-br from-[#41B782] to-teal-900 w-full h-[400px] flex flex-col items-center justify-center text-center text-white">
           <HeartPulse className="bg-white rounded-full p-2 text-slate-900 w-10 h-10 my-1" />
           <p className="font-bold text-3xl">Ready to join our team? </p>
-          <p className="text-xl w-[60%] mt-2">
+          <p className="text-xl md:w-[60%] mt-2 px-4">
             Interested in partnering with us, joining our care team, or learning
             more about how Novaddi is transforming health? We’d love to hear
             from you!
