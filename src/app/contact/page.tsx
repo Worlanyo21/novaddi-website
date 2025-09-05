@@ -130,23 +130,24 @@ const ContactUs = () => {
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    setLoading(true);
-
-    const formData = new FormData(e.currentTarget);
-    const data = {
-      name: formData.get("name"),
-      email: formData.get("email"),
-      message: formData.get("message"),
-    };
-
-    await fetch("/api/send", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(data),
-    });
-
     setLoading(false);
-    setSent(true);
+    console.log(loading);
+
+    // const formData = new FormData(e.currentTarget);
+    // const data = {
+    //   name: formData.get("name"),
+    //   email: formData.get("email"),
+    //   message: formData.get("message"),
+    // };
+
+    // await fetch("/api/send", {
+    //   method: "POST",
+    //   headers: { "Content-Type": "application/json" },
+    //   body: JSON.stringify(data),
+    // });
+
+    // setLoading(false);
+    // setSent(true);
   }
 
   return (
