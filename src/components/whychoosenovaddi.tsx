@@ -60,7 +60,7 @@ const WhyChooseNovaddi = () => {
         animate={inView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.35, ease: "easeInOut" }}
       >
-        <div className=" ml-38 text-md font-bold p-2 px-4 bg-gradient-to-br from-[#41B782] to-teal-950 w-fit rounded-full">
+        <div className=" ml-38 text-md font-bold p-2 px-4 bg-gradient-to-br from-[#41B782] to-teal-950 w-fit rounded-full text-white">
           Why choose Novaddi
         </div>
         <div className="flex flex-col md:flex-row justify-between md:ml-38 mx-10">

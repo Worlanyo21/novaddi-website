@@ -158,7 +158,7 @@ const Hero = () => {
           </div>
 
           {/* Subheading */}
-          <p className="text-lg md:text-xl lg:text-lg text-foreground/98 mb-6 max-w-3xl  leading-relaxed animate-fadeHero-in-up">
+          <p className="text-lg md:text-xl lg:text-lg text-white/98 mb-6 max-w-3xl  leading-relaxed animate-fadeHero-in-up">
             Upload your prescription, get pharmacist-approved medicines fast,
             and access preventive checks like Enterprise UriScan.
           </p>

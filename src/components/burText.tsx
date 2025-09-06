@@ -125,7 +125,7 @@ const BlurText: React.FC<BlurTextProps> = ({
               display: "inline-block",
               willChange: "transform, filter, opacity",
             }}
-            className={`text-4xl md:text-6xl lg:text-7xl font-bold w-fit pb-2  ${segment === "Novaddi,4" && "text-teal-600"}`}
+            className={`text-4xl md:text-6xl text-white/90 lg:text-7xl font-bold w-fit pb-2  ${segment === "Novaddi,4" && "text-teal-600"}`}
           >
             {segment === " " ? "\u00A0" : segment}
             {animateBy === "words" && index < elements.length - 1 && "\u00A0"}

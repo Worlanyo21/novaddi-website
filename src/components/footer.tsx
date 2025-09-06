@@ -54,7 +54,7 @@ const Footer = () => {
     <footer
       className={
         pathname === "/"
-          ? "bg-black border-t border-primary/20"
+          ? "bg-black border-t border-primary/20 text-white/90"
           : "bg-slate-200 text-black"
       }
     >

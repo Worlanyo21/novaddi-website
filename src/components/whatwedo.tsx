@@ -18,7 +18,7 @@ const WhatWeDo = () => {
   return (
     <div className="bg-white ">
       <div className="mx-10 lg:mx-32 py-16 ">
-        <div className="text-md p-2 px-4 bg-gradient-to-br from-[#41B782] to-teal-950  font-semibold w-fit rounded-full">
+        <div className="text-md p-2 px-4 bg-gradient-to-br from-[#41B782] to-teal-950  font-semibold w-fit rounded-full text-white">
           What we do
         </div>
         <div>

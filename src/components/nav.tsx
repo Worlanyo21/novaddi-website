@@ -90,7 +90,7 @@ const Navigation = () => {
         pathname === "/" &&
           !isScrolled &&
           "bg-transparent animate-fade-in-down",
-        pathname !== "/" && "bg-gray-50 border-b w-full backdrop-blur-3xl"
+        pathname !== "/" && "bg-gray-50 shadow w-full backdrop-blur-3xl"
       )}
     >
       <div className="container-custom">

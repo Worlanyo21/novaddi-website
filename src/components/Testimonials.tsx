@@ -120,7 +120,7 @@ const Testimonials = () => {
         <div className="w-full flex flex-col items-center justify-center mb-16">
           <div className="inline-flex items-center bg-gradient-to-br from-[#41B782] to-teal-900  text-white font-semibold w-fit rounded-full mb-6 gap-2 p-2 px-4">
             <Quote className="h-4 w-4 text-accent" />
-            <span className="text-sm font-medium">Client Testimonials</span>
+            <span className="text-sm font-semibold">Client Testimonials</span>
           </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
             Real{" "}

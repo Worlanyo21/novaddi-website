@@ -341,7 +341,7 @@ const ContactUs = () => {
                 {supportInfo.map((info, index) => (
                   <div
                     key={index}
-                    className="glass-card p-6 text-lg rounded-xl border border-primary/30 shadow group hover-scale bg-gray-50 w-[370px]"
+                    className="glass-card p-6 text-lg rounded-xl border border-gray-50 shadow group hover-scale bg-gray-50 w-[370px]"
                   >
                     <div className="flex items-start gap-4">
                       <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center group-hover:animate-pulse-glow">
@@ -386,7 +386,7 @@ const ContactUs = () => {
                 {partnershipInfo.map((info, index) => (
                   <div
                     key={index}
-                    className="glass-card p-6 text-lg rounded-xl border border-primary/30 shadow group hover-scale bg-gray-50 w-[370px]"
+                    className="glass-card p-6 text-lg rounded-xl border border-gray-50 shadow group hover-scale bg-gray-50 w-[370px]"
                   >
                     <div className="flex items-start gap-4">
                       <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center group-hover:animate-pulse-glow">
@@ -432,7 +432,7 @@ const ContactUs = () => {
                 {socialInfo.map((info, index) => (
                   <div
                     key={index}
-                    className="glass-card p-6 text-lg rounded-xl border border-primary/30 shadow group hover-scale bg-gray-50 w-[370px]"
+                    className="glass-card p-6 text-lg rounded-xl border border-gray-50 shadow group hover-scale bg-gray-50 w-[370px]"
                   >
                     <div className="flex items-start gap-4">
                       <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center group-hover:animate-pulse-glow">
